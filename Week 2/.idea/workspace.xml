@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2b2d4aac-5ede-46a4-bd0a-b75e8d9fd7e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week 2.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Part4.java">
+        <entry file="file://$PROJECT_DIR$/src/GenesFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="338">
+              <caret line="85" column="40" lean-forward="true" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -42,6 +41,7 @@
         <option value="$PROJECT_DIR$/src/Part2.java" />
         <option value="$PROJECT_DIR$/src/Part3.java" />
         <option value="$PROJECT_DIR$/src/Part4.java" />
+        <option value="$PROJECT_DIR$/src/GenesFinder.java" />
       </list>
     </option>
   </component>
@@ -78,7 +78,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549300309209" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549313886547" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Week 1/src/Data/courserajava.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -97,7 +97,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Part4">
+  <component name="RunManager" selected="Application.GenesFinder">
+    <configuration name="GenesFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenesFinder" />
+      <module name="Week 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Part1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part1" />
       <module name="Week 2" />
@@ -128,10 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenesFinder" />
+        <item itemvalue="Application.Part1" />
         <item itemvalue="Application.Part4" />
         <item itemvalue="Application.Part3" />
         <item itemvalue="Application.Part2" />
-        <item itemvalue="Application.Part1" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549298860967</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished part4">
+      <created>1549300350840</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549300350850</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -179,7 +194,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -187,7 +202,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32868218" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32868218" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32868218" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -206,7 +221,8 @@
     <MESSAGE value="Strings in java first assignment, part 1." />
     <MESSAGE value="Finished part2" />
     <MESSAGE value="Finished part3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished part3" />
+    <MESSAGE value="Finished part4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished part4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Part1.java">
@@ -232,8 +248,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Part4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        <state relative-caret-position="300">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenesFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="85" column="40" lean-forward="true" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
         </state>
       </provider>
     </entry>
