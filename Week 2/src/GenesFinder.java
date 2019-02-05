@@ -3,6 +3,7 @@ public class GenesFinder {
         GenesFinder genesFinder = new GenesFinder();
         //                              0123456789
         genesFinder.printAllGenes("ATGTAAGATGCCCTAGT");
+        //genesFinder.printAllGenes("AATGCTAACTAGCTGACTAAT");
 
     }
 
@@ -48,10 +49,10 @@ public class GenesFinder {
         int tagCodonIndex = findStopCodon(dna, startCodonIndex, "TAG");
         int tgaCodonIndex = findStopCodon(dna, startCodonIndex, "TGA");
 
-        int minIndex;
+        int minIndex = -1;
         if (taaCodonIndex == -1 || (tagCodonIndex != -1 && tagCodonIndex < taaCodonIndex) && Math.abs(startCodonIndex - tagCodonIndex) % 3 == 0) {
             minIndex = tagCodonIndex;
-        } else {
+        } else if (startCodonIndex - taaCodonIndex % 3 == 0) {
             minIndex = taaCodonIndex;
         }
 
