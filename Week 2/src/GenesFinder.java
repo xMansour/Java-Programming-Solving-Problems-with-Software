@@ -1,6 +1,7 @@
 public class GenesFinder {
     public static void main(String[] args) {
         GenesFinder genesFinder = new GenesFinder();
+        //                              0123456789
         genesFinder.printAllGenes("GTTAATGTAGCTTAAACCTTTAAAGCAAGGCACTGAAAATGCCTAGATGAGTGAGCTCACTCCATAGACACAAAGGTTTGGTCCTGGCCTTCTTATTAGT");
 
     }
@@ -48,13 +49,13 @@ public class GenesFinder {
         int tgaCodonIndex = findStopCodon(dna, startCodonIndex, "TGA");
 
         int minIndex;
-        if (taaCodonIndex == -1 || (tagCodonIndex != -1 && tagCodonIndex < taaCodonIndex)) {
+        if (taaCodonIndex == -1 || (tagCodonIndex != -1 && tagCodonIndex < taaCodonIndex) && Math.abs(startCodonIndex - tagCodonIndex) % 3 == 0) {
             minIndex = tagCodonIndex;
         } else {
             minIndex = taaCodonIndex;
         }
 
-        if (minIndex == -1 || (tgaCodonIndex != -1 && tgaCodonIndex < minIndex)) {
+        if (minIndex == -1 || (tgaCodonIndex != -1 && tgaCodonIndex < minIndex) && Math.abs(startCodonIndex - tgaCodonIndex) % 3 == 0) {
             minIndex = tgaCodonIndex;
         }
 
@@ -62,7 +63,10 @@ public class GenesFinder {
             return "";
         }
 
-        return dna.substring(startCodonIndex, minIndex + 3);
+        if (Math.abs(startCodonIndex - minIndex) % 3 == 0)
+            return dna.substring(startCodonIndex, minIndex + 3);
+
+        return "";
     }
 
 
@@ -82,15 +86,17 @@ public class GenesFinder {
 
     //you should repeatedly find genes and print each one until there are no more genes.
     public void printAllGenes(String dna) {
-        while (true) {
+        while (!dna.isEmpty()) {
             String gene = findGene(dna);
-            if (!gene.isEmpty())
-                System.out.println("The dna: " + dna + " Contains the following gene: " + gene);
-            else {
-                System.out.println("The dna: " + dna + " Contains no gene");    //empty one
+            int geneIndex = dna.indexOf(gene);
+            if (gene.isEmpty()) {
+                System.out.println("There are no more genes in the dna");
                 break;
             }
+            System.out.println("The gene \"" + gene + "\"" + " is in the dna");
+            dna = dna.substring(geneIndex + gene.length());
         }
-
     }
+
 }
+
