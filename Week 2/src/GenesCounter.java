@@ -1,10 +1,10 @@
-public class GenesFinder {
+public class GenesCounter {
     public static void main(String[] args) {
-        GenesFinder genesFinder = new GenesFinder();
-        //                              0123456789
-        genesFinder.printAllGenes("ATGTAAGATGCCCTAGT");
+        GenesCounter genesCounter = new GenesCounter();
+        genesCounter.countGenes("ATGTAAGATGCCCTAGT");
 
     }
+
 
     //should return the index of the specified stopCodon
     public int findStopCodon(String dna, int startCodonIndex, String stopCodon) {
@@ -74,29 +74,29 @@ public class GenesFinder {
     //Calculate the gene by sending this DNA string as an argument to findGene.
     //If a gene exists following our algorithm above, then print the gene, otherwise print the empty string.
     public void testFindGene() {
-        String dna = "ATGTAAGATGCCCTAGT";
+        String dna = "GTTAATGTAGCTTAAACCTTTAAAGCAAGGCACTGAAAATGCCTAGATGAGTGAGCTCACTCCATAGACACAAAGGTTTGGTCCTGGCCTTCTTATTAGT";
         System.out.println("The dna: " + dna + " Contains the following gene: " + findGene(dna));
 
-        dna = "atgtaagatgccctagt";
+        dna = "gatcaaagaacaggagagttcccaggccagtacggaagaatgtgagaaaaataagcaggacacaattacaactaaaaaatatatctagggcctcatgggcccagctttcttgtacaaagtggt";
         System.out.println("The dna: " + dna + " Contains the following gene: " + findGene(dna));
 
 
     }
 
 
-    //you should repeatedly find genes and print each one until there are no more genes.
-    public void printAllGenes(String dna) {
+    public void countGenes(String dna) {
+        int count = 0;
         while (!dna.isEmpty()) {
             String gene = findGene(dna);
             int geneIndex = dna.indexOf(gene);
             if (gene.isEmpty()) {
-                System.out.println("There are no more genes in the dna");
+                System.out.println("There are " + count + " genes in this dna");
                 break;
             }
-            System.out.println("The gene \"" + gene + "\"" + " is in the dna");
+            count++;
             dna = dna.substring(geneIndex + gene.length());
         }
     }
 
-}
 
+}
