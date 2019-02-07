@@ -1,9 +1,11 @@
+import edu.duke.FileResource;
 import edu.duke.StorageResource;
 
 public class StorageResourcePart3 {
     public static void main(String[] args) {
         StorageResourcePart3 storageResourcePart3 = new StorageResourcePart3();
-        storageResourcePart3.testProcessGenes();
+        //storageResourcePart3.testProcessGenes();
+        storageResourcePart3.testProcessGenesWithFile();
 
     }
 
@@ -42,6 +44,14 @@ public class StorageResourcePart3 {
         storageResource.add("ATGCCATAGCTGCGATAGCTGCTG");
         storageResource.add("ATGTAA");
         storageResource.add("ATGCTGCTGCTGATGTAACTGATGCCATAGCTGCGATAGCTGCTG");
+        processGenes(storageResource);
+    }
+
+    public void testProcessGenesWithFile() {
+        StorageResource storageResource = new StorageResource();
+        FileResource fileResource = new FileResource("brca1line.fa");
+        String dna = fileResource.asString();
+        storageResource.add(dna);
         processGenes(storageResource);
     }
 
