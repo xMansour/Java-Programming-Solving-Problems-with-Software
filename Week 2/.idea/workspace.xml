@@ -13,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StorageResourcePart2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="231">
+              <caret line="40" column="46" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StorageResourcePart3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -48,6 +57,7 @@
         <option value="$PROJECT_DIR$/src/DebuggingPart2.java" />
         <option value="$PROJECT_DIR$/src/StorageResourcePart1.java" />
         <option value="$PROJECT_DIR$/src/StorageResourcePart2.java" />
+        <option value="$PROJECT_DIR$/src/StorageResourcePart3.java" />
       </list>
     </option>
   </component>
@@ -84,7 +94,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549575236429" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549576323715" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Week 1/src/Data/courserajava.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -103,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StorageResourcePart2">
+  <component name="RunManager" selected="Application.StorageResourcePart3">
     <configuration name="DebuggingPart1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DebuggingPart1" />
       <module name="Week 2" />
@@ -113,13 +123,6 @@
     </configuration>
     <configuration name="DebuggingPart2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DebuggingPart2" />
-      <module name="Week 2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenesFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenesFinder" />
       <module name="Week 2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,13 +142,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StorageResourcePart3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StorageResourcePart3" />
+      <module name="Week 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StorageResourcePart3" />
         <item itemvalue="Application.StorageResourcePart2" />
         <item itemvalue="Application.StorageResourcePart1" />
         <item itemvalue="Application.DebuggingPart2" />
         <item itemvalue="Application.DebuggingPart1" />
-        <item itemvalue="Application.GenesFinder" />
       </list>
     </recent_temporary>
   </component>
@@ -251,14 +261,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549573531809</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="StorageResource Part2">
+      <created>1549575249632</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1549575249632</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26136363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -298,7 +315,8 @@
     <MESSAGE value="Fixed an issue in the findGene() method by debugging." />
     <MESSAGE value="Debugging part1" />
     <MESSAGE value="StorageResource Part1" />
-    <option name="LAST_COMMIT_MESSAGE" value="StorageResource Part1" />
+    <MESSAGE value="StorageResource Part2" />
+    <option name="LAST_COMMIT_MESSAGE" value="StorageResource Part2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -474,6 +492,10 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Part1.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -550,8 +572,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StorageResourcePart2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="231">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StorageResourcePart3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
         </state>
       </provider>
     </entry>
