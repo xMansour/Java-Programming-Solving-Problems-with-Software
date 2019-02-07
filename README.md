@@ -3,7 +3,8 @@ This is the first course out of nine programming courses provided by [coursera](
 
 You can find this course [here](https://www.coursera.org/learn/java-programming)
 
-## [x] Week 1
+
+## Week 1
 In this week you will learn about programming in general and the syntax of java. You will also try to get the perimeter of different shapes using code.
 
 You will also learn about the 7-Steps of solving issues.
@@ -18,5 +19,29 @@ You will also learn about the 7-Steps of solving issues.
     7. Debug failed test cases
 
 
-## [] Week 1
-Working on it!
+## Week 2
+In this week you will learn about processing genes in the dna. You will be able to count, print and store the valid genes in a string or a file.
+
+You will also learn about the following concepts.
+
+#### Short Circuit Evaluation
+
+```java
+if(x < y && y < z)
+    ....
+```
+if x < y is false then there is no need to evaluate the second part y < z since the logical AND operation needs both parameters to be true.
+
+```java
+if(x < y || x < z)
+    ....
+```
+if x < y is true then there is no need to evaluate the second part x < z since the logical OR operation needs only one parameter to be true.
+
+
+#### Seperation of concern
+Try to seperate your code into multiple reusable methods.
+
+
+## Week 3
+working on it.
