@@ -15,13 +15,16 @@ public class DebuggingPart2 {
                 break;
             }
             String found = input.substring(index + 1, index + 4);
-            System.out.println(found);
-            index = input.indexOf("abc", index + 4);
+            System.out.println("\"" + found + "\"" + " at index: " + index);
+            //index+3 to take the other occurrence of abc that is immediately after abc
+            index = input.indexOf("abc", index + 3);
+            System.out.println("index after updating: " + index);
         }
     }
 
     public void test() {
-        findAbc("abcdkfjsksioehgjfhsdjfhksdfhuwabcabcajfieowj");
+        //findAbc("abcdkfjsksioehgjfhsdjfhksdfhuwabcabcajfieowj");
+        findAbc("abcabcabcabca");
     }
 }
 
