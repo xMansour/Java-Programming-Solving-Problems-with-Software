@@ -32,8 +32,7 @@ public class ExportsAnalyzer {
 
     public void testCountryInfo() {
         String countryName = "Germany";
-        FileResource fileResource = new FileResource("datasets/exports_small.csv");
-        CSVParser parser = fileResource.getCSVParser();
+        CSVParser parser = createCSVParser();
         System.out.println(countryInfo(parser, countryName));
     }
 
@@ -54,8 +53,7 @@ public class ExportsAnalyzer {
     public void testListExportersTwoProducts() {
         String exportItem1 = "gold";
         String exportItem2 = "diamonds";
-        FileResource fileResource = new FileResource("datasets/exports_small.csv");
-        CSVParser parser = fileResource.getCSVParser();
+        CSVParser parser = createCSVParser();
         listExportersTwoProducts(parser, exportItem1, exportItem2);
     }
 
@@ -73,8 +71,7 @@ public class ExportsAnalyzer {
 
     public void testNumberOfExporters() {
         String exportItem = "gold";
-        FileResource fileResource = new FileResource("datasets/exports_small.csv");
-        CSVParser parser = fileResource.getCSVParser();
+        CSVParser parser = createCSVParser();
         System.out.println("There are " + numberOfExporters(parser, exportItem) + " countries that exports " + exportItem);
 
     }
@@ -96,9 +93,13 @@ public class ExportsAnalyzer {
 
     public void testBigExporters() {
         String amount = "$999,999,999";
-        FileResource fileResource = new FileResource("datasets/exports_small.csv");
-        CSVParser parser = fileResource.getCSVParser();
+        CSVParser parser = createCSVParser();
         bigExporters(parser, amount);
+    }
+
+    public CSVParser createCSVParser() {
+        FileResource fileResource = new FileResource("datasets/exportdata.csv");
+        return fileResource.getCSVParser();
     }
 
 
