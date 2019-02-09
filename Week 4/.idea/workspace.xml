@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58ff6042-971e-4e2b-93c7-7d4369cedfd9" name="Default Changelist" comment="Finished week 4 Baby Names">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_csv_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BabyNames.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BabyNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/example-small.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1880.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1881.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1882.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1883.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1884.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1885.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1886.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1887.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1888.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1889.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1890.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1891.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1892.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1893.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1894.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1895.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1896.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1897.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1898.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1899.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1900.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1901.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1902.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1903.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1904.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1905.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1906.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1907.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1908.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1909.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1910.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1911.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1912.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1913.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1914.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1915.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1916.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1917.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1918.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1919.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1920.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1921.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1922.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1923.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1924.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1925.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1926.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1927.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1928.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1929.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1930.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1931.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1932.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1933.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1934.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1935.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1936.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1937.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1938.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1939.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1940.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1941.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1942.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1943.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1944.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1945.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1946.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1947.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1948.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1949.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1950.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1951.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1952.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1953.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1954.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1955.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1956.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1957.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1958.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1959.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1960.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1961.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1962.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1963.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1964.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1965.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1966.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1967.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1968.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1969.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1970.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1971.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1972.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1973.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1974.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1975.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1976.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1977.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1978.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1979.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1980.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1981.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1982.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1983.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1984.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1985.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1986.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1987.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1988.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1989.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1990.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1991.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1992.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1993.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1994.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1995.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1996.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1997.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1998.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1999.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2001.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2002.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2003.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2004.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2005.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2006.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2007.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2008.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2009.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2010.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2011.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2012.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2013.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2014.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/yob2012short.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/yob2013short.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/yob2014short.csv" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BabyNames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Isabella</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/BabyNames.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="682" />
+    <option name="y" value="-4" />
+    <option name="width" value="685" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BabyNames" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Week 4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BabyNames" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Week 4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BabyNames" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Week 4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BabyNames" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Week 4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="us_babynames_by_year" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549738549535" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/libararies/courserajava.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/datasets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="BabyNames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BabyNames" />
+      <module name="BabyNames" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BabyNames" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58ff6042-971e-4e2b-93c7-7d4369cedfd9" name="Default Changelist" comment="" />
+      <created>1549728436798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549728436798</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25378788" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32868218" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32868218" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25378788" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32868218" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32868218" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished week 4 Baby Names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished week 4 Baby Names" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/datasets/example-small.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datasets/yob2012short.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datasets/yob2014short.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datasets/yob2000s.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-218566">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob1880.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datasets/us_babynames_by_year/yob2014.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BabyNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BabyNames</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-csv-1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

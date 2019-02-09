@@ -1,4 +1,4 @@
-# Java Programming Solving Problems with Software
+# Java Programming: Solving Problems with Software
 This is the first course out of nine programming courses provided by [coursera](https://www.coursera.org/) and are listed [here](https://github.com/ForrestKnight/open-source-cs)
 
 You can find this course [here](https://www.coursera.org/learn/java-programming)
@@ -49,4 +49,4 @@ In this week you will learn about CSV(Comma seperated values) Files and processi
 
 
 ## Week 4 
-working on it!
+In this week you will create a project to process large CSV Files containing a lot of data about the united state childbirth names and how popular these names are.
