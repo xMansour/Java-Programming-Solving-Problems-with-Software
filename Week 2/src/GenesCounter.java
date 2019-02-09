@@ -85,6 +85,7 @@ public class GenesCounter {
 
 
     public void countGenes(String dna) {
+        dna = dna.toUpperCase();        //to add lowercase comparability
         int count = 0;
         while (!dna.isEmpty()) {
             String gene = findGene(dna);

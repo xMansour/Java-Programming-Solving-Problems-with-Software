@@ -52,6 +52,8 @@ public class StorageResourcePart3 {
         FileResource fileResource = new FileResource("brca1line.fa");
         String dna = fileResource.asString();
         storageResource.add(dna);
+        GenesCounter genesCounter = new GenesCounter();
+        genesCounter.countGenes(dna);
         processGenes(storageResource);
     }
 

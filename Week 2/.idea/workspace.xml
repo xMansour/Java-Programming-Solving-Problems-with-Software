@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2b2d4aac-5ede-46a4-bd0a-b75e8d9fd7e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Week 2/GenesCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Week 2/GenesCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenesCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenesCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StorageResourcePart3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StorageResourcePart3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,22 +17,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StorageResourcePart2.java">
+        <entry file="file://$PROJECT_DIR$/src/StorageResourcePart3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="40" column="46" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="46" />
+            <state relative-caret-position="810">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/StorageResourcePart3.java">
+        <entry file="file://$PROJECT_DIR$/src/GenesCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="296">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/brca1line.fa">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="367" selection-start-column="364" selection-end-column="367" />
             </state>
           </provider>
         </entry>
@@ -44,6 +55,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>atg</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -56,12 +72,12 @@
         <option value="$PROJECT_DIR$/src/Part4.java" />
         <option value="$PROJECT_DIR$/src/OccurrenceFinder.java" />
         <option value="$PROJECT_DIR$/src/GenesFinder.java" />
-        <option value="$PROJECT_DIR$/src/GenesCounter.java" />
         <option value="$PROJECT_DIR$/src/DebuggingPart1.java" />
         <option value="$PROJECT_DIR$/src/DebuggingPart2.java" />
         <option value="$PROJECT_DIR$/src/StorageResourcePart1.java" />
         <option value="$PROJECT_DIR$/src/StorageResourcePart2.java" />
         <option value="$PROJECT_DIR$/src/StorageResourcePart3.java" />
+        <option value="$PROJECT_DIR$/src/GenesCounter.java" />
       </list>
     </option>
   </component>
@@ -77,6 +93,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,16 +111,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549576854274" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549577874382" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Week 1/src/Data/courserajava.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -123,15 +140,15 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.StorageResourcePart3">
-    <configuration name="DebuggingPart1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DebuggingPart1" />
+    <configuration name="DebuggingPart2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DebuggingPart2" />
       <module name="Week 2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DebuggingPart2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DebuggingPart2" />
+    <configuration name="GenesCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenesCounter" />
       <module name="Week 2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,10 +178,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StorageResourcePart3" />
+        <item itemvalue="Application.GenesCounter" />
         <item itemvalue="Application.StorageResourcePart2" />
         <item itemvalue="Application.StorageResourcePart1" />
         <item itemvalue="Application.DebuggingPart2" />
-        <item itemvalue="Application.DebuggingPart1" />
       </list>
     </recent_temporary>
   </component>
@@ -284,14 +301,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549576339158</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="StorageResource Part3 with files">
+      <created>1549576880635</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1549576880635</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1368" height="773" extended-state="6" />
+    <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2659091" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -300,7 +324,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.32868218" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.32868218" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,7 +357,8 @@
     <MESSAGE value="StorageResource Part1" />
     <MESSAGE value="StorageResource Part2" />
     <MESSAGE value="StorageResource Part3" />
-    <option name="LAST_COMMIT_MESSAGE" value="StorageResource Part3" />
+    <MESSAGE value="StorageResource Part3 with files" />
+    <option name="LAST_COMMIT_MESSAGE" value="StorageResource Part3 with files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -506,6 +531,168 @@
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StorageResourcePart3.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StorageResourcePart3.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StorageResourcePart3.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StorageResourcePart3.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/GenesCounter.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -549,16 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GenesCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#2039#2073#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DebuggingPart1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -580,9 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/brca1line.fa">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StorageResourcePart2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -592,18 +766,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StorageResourcePart1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="1168">
           <caret line="78" column="72" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StorageResourcePart3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="810">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/brca1line.fa">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="367" selection-start-column="364" selection-end-column="367" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenesCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
