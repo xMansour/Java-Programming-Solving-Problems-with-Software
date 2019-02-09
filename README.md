@@ -44,4 +44,9 @@ Try to seperate your code into multiple reusable methods.
 
 
 ## Week 3
-working on it.
+In this week you will learn about CSV(Comma seperated values) Files and processing them using an open source java libarary called 
+[Apache Commons CSV](https://commons.apache.org/proper/commons-csv/).
+
+
+## Week 4 
+working on it!
